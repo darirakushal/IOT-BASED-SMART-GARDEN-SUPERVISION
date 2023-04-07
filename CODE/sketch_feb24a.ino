@@ -17,8 +17,8 @@
 
 #define FIREBASE_HOST "temp-hymp-default-rtdb.firebaseio.com" //Without http:// or https:// schemes
 #define FIREBASE_AUTH "sdgfM1S0Zh7piKSmWyyG9sJ2fP9o9ccVpMwHMxsh"
-#define WIFI_SSID "RAVIDARIRA"
-#define WIFI_PASSWORD "RSPK*989970"
+#define WIFI_SSID "    "    #WIFI USERID
+#define WIFI_PASSWORD "    "  #WIFI PASSWORD
 
 //Data Pin's
 #define DHTPIN 4		// DHT to D2
