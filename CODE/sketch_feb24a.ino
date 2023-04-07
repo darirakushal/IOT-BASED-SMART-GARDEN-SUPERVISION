@@ -3,10 +3,10 @@
 // DHT SENSOR -->4(D2)
 // [R1] NIGTH LAMP -->0(D3)
 // [R2] CHECK LIGHT -->2(D4)
+// RAIN SENSOR -->14(D5)
 // MOISTURE SENSOR -->12(D6)
 // [R4] ALARM -->12(D7)
 // [R3] MOTOR -->15(D8)
-// RAIN SENSOR -->14(D5)
 
 
 #include <Adafruit_Sensor.h>
