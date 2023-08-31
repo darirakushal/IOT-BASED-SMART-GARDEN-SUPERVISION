@@ -1,12 +1,12 @@
-// IR SENSOR -->16(D0)
-// MQ-135 SENSOR -->5(D1)
+// IR SENSOR -->5(D1)
+// MQ-135 SENSOR -->16(D0)
 // DHT SENSOR -->4(D2)
 // [R1] NIGTH LAMP -->0(D3)
 // [R2] CHECK LIGHT -->2(D4)
-// RAIN SENSOR -->14(D5)
 // MOISTURE SENSOR -->12(D6)
 // [R4] ALARM -->12(D7)
 // [R3] MOTOR -->15(D8)
+// RAIN SENSOR -->14(D5)
 
 
 #include <Adafruit_Sensor.h>
@@ -17,8 +17,8 @@
 
 #define FIREBASE_HOST "temp-hymp-default-rtdb.firebaseio.com" //Without http:// or https:// schemes
 #define FIREBASE_AUTH "sdgfM1S0Zh7piKSmWyyG9sJ2fP9o9ccVpMwHMxsh"
-#define WIFI_SSID "    "    #WIFI USERID
-#define WIFI_PASSWORD "    "  #WIFI PASSWORD
+#define WIFI_SSID "RAVIDARIRA"
+#define WIFI_PASSWORD "RSPK*989970"
 
 //Data Pin's
 #define DHTPIN 4		// DHT to D2
@@ -35,11 +35,11 @@ int MOTOR = 15;
 int NIGHTLAMP = 0;
 
 //MQ-135 AIR QUALITY SENSOR
-#define anInput     5                        //analog feed from MQ135
+#define anInput     16                        //analog feed from MQ135
 #define co2Zero     55  
 
 //IR SENSORE
-int SENSORPin = 16;
+int SENSORPin = 5;
 
 //RAIN SENSOR
 int RainPin = 14;
